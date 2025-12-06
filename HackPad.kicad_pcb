@@ -1250,11 +1250,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "201fd167-62a8-4448-bc52-6e73afff9829")
-		(at 149.054 110.1705)
+		(at 156.674 154.88 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D15"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "9e910566-8ae5-465d-9227-d4d927fe4cc2")
 			(effects
@@ -1265,7 +1265,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "66b07a71-7b2f-4302-8e7e-a2a9835321fc")
 			(effects
@@ -1276,7 +1276,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f9b5918-b410-44a9-a164-602a319fe55d")
@@ -1288,7 +1288,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52fd5d52-fda7-48fb-9752-f81779289602")
@@ -1300,7 +1300,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1313,7 +1313,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1339,6 +1339,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fc59896b-c3b7-4134-b232-beb096d4c045")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "954fedf5-9796-4c37-80ef-52641d40023f")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -1369,16 +1379,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ee5168b3-97da-494e-8708-c14d481131ca")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "954fedf5-9796-4c37-80ef-52641d40023f")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -1413,6 +1413,16 @@
 			(uuid "bea9c2fb-5259-4b4f-b326-9a46c725961d")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "96376a96-4534-4531-9d29-01d37005c128")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -1442,16 +1452,6 @@
 			(layer "F.Fab")
 			(uuid "417bc86e-fb69-4201-976e-7c12470d1be2")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "96376a96-4534-4531-9d29-01d37005c128")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -1464,7 +1464,7 @@
 			(uuid "7828e94f-113e-4a6d-a1ec-7df63e126496")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "505ed3f1-0cd4-441d-8682-ec2815e27f4f")
 			(effects
@@ -1475,7 +1475,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "cbc13f9e-586b-4470-a752-534db822974d")
 			(effects
@@ -1486,7 +1486,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "fc9bed08-bf56-42b8-9e48-9112e1c6d932")
 			(effects
@@ -1497,7 +1497,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1509,7 +1509,7 @@
 			(uuid "671b210a-5d89-4112-8fc3-3d8585869d0e")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3629,11 +3629,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7c91df0a-e2a6-41a2-972d-8f74a7bcd9b5")
-		(at 149.054 88.8705)
+		(at 105 129.19 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D9"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "ec066e51-bd01-4cb9-bed3-4f7fb1b9c70e")
 			(effects
@@ -3644,7 +3644,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "c979fd90-339a-49fb-8fae-6c7260d27d10")
 			(effects
@@ -3655,7 +3655,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "45a91954-938c-4cd4-964f-a6685e33cfe1")
@@ -3667,7 +3667,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59c6f5fe-1a5e-4c06-8016-df2c3ee0c640")
@@ -3679,7 +3679,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3692,7 +3692,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3718,6 +3718,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fb4875ce-2b79-4e71-90d6-781a774d6ea6")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c8b7de0-b63b-4051-b748-91843b5016c3")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -3748,16 +3758,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "5578720f-bf98-43ab-ad5b-9af855890178")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5c8b7de0-b63b-4051-b748-91843b5016c3")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -3792,6 +3792,16 @@
 			(uuid "e1cf1ed4-b78e-4c24-8510-4c55fa7a5c47")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9fecb42c-7903-47c6-95e2-3e0af6f8db8e")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -3821,16 +3831,6 @@
 			(layer "F.Fab")
 			(uuid "ae41fd24-62a3-4682-a11d-49a3d48b55a9")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9fecb42c-7903-47c6-95e2-3e0af6f8db8e")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -3843,7 +3843,7 @@
 			(uuid "f676900e-2f15-4fc4-ba36-918b0fa34513")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "489bbaeb-8a4a-410e-b512-b8de932bd031")
 			(effects
@@ -3854,7 +3854,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "9e65f358-29ad-47f7-82cd-5a884b4e845a")
 			(effects
@@ -3865,7 +3865,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "b7f829ff-a93c-440c-99ac-515c3a2ce391")
 			(effects
@@ -3876,7 +3876,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -3888,7 +3888,7 @@
 			(uuid "c4926d58-30cb-4a24-b9a0-2ff842791296")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4199,11 +4199,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "83d87ef1-08cd-4cf5-a2c5-066ed74f26c7")
-		(at 149.054 95.9705)
+		(at 157 129.19 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D11"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "ea114fb6-572b-409a-8301-6169ef3aa71e")
 			(effects
@@ -4214,7 +4214,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "12146611-f5f3-4f3e-9c19-c8a28fc1b2c6")
 			(effects
@@ -4225,7 +4225,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b7ad70c-67e9-4185-b311-e64563e819d0")
@@ -4237,7 +4237,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cda5dec1-5eda-4592-908c-fb968b134a30")
@@ -4249,7 +4249,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4262,7 +4262,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4288,6 +4288,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "bf98a907-4ec8-4ace-b084-80efb24e8a5d")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fc4717c7-a0d7-4d0d-8f03-4fe6c72e99f2")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -4318,16 +4328,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e1624b09-a4bc-4b92-9f8d-284dfa2c8630")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc4717c7-a0d7-4d0d-8f03-4fe6c72e99f2")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -4362,6 +4362,16 @@
 			(uuid "7563197f-ee65-4393-8983-f1dca2fe4757")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "93b002ca-010f-4b7d-a4cd-013a0c709e21")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -4391,16 +4401,6 @@
 			(layer "F.Fab")
 			(uuid "477c1927-f62a-4c57-a8b2-4a058bd37100")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "93b002ca-010f-4b7d-a4cd-013a0c709e21")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -4413,7 +4413,7 @@
 			(uuid "028d60e4-a136-4151-92e6-20ef90ebd3ac")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "96d9140a-7835-4b1d-b719-d101c45f7419")
 			(effects
@@ -4424,7 +4424,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "59a7d342-9eee-42e8-a884-be6b5f51b97d")
 			(effects
@@ -4435,7 +4435,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "b84122cf-edfd-4c83-ad85-b2e742834c2a")
 			(effects
@@ -4446,7 +4446,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -4458,7 +4458,7 @@
 			(uuid "583de1c9-ebae-479a-92e3-0b48764f67aa")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5394,11 +5394,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "90c0e589-2ec8-4e01-bdf0-c2b2511a75be")
-		(at 149.054 99.5205)
+		(at 182.5 128.88 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D12"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "4dda790b-7677-48ac-8e56-56f629f5a20c")
 			(effects
@@ -5409,7 +5409,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "643f0ffb-ae02-4102-bcaf-4b63fd5160a4")
 			(effects
@@ -5420,7 +5420,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "db24ec4c-228d-4ab3-96ac-ec85231e88d5")
@@ -5432,7 +5432,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25bb9823-28de-4c5d-8542-2b3f16afad65")
@@ -5444,7 +5444,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5457,7 +5457,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5483,6 +5483,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "78429da5-c71b-4daa-8fb9-9cd01cc5ca8b")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39f692fc-220c-4588-8334-db004d316a00")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -5513,16 +5523,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "194c169f-f368-4bb3-86d2-727b97b4469b")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "39f692fc-220c-4588-8334-db004d316a00")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -5557,6 +5557,16 @@
 			(uuid "48c05af9-775c-4f19-a5dc-ebc026c96f6b")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c030d45e-529f-440f-851d-c2ac5a5f3877")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -5586,16 +5596,6 @@
 			(layer "F.Fab")
 			(uuid "6a5d2deb-74ac-4be4-b9b3-5d2d32a4070b")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c030d45e-529f-440f-851d-c2ac5a5f3877")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -5608,7 +5608,7 @@
 			(uuid "9f858966-7097-4c84-816a-b66cc204763d")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "ce00696a-332d-4a8a-8912-af1484541e1b")
 			(effects
@@ -5619,7 +5619,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "156bcc75-8cd4-4dd6-ba2e-8c725254f742")
 			(effects
@@ -5630,7 +5630,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "7d87444b-a501-41e1-ab22-89a6371767ec")
 			(effects
@@ -5641,7 +5641,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5653,7 +5653,7 @@
 			(uuid "07922f01-8711-485b-bab1-98bd1f7ff223")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5679,11 +5679,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9d6ce73b-d43a-4a90-b157-9aa3e26e93fe")
-		(at 149.054 113.7205)
+		(at 182.5 155.38 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D16"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "fb9ac456-dbc6-4f99-928b-65ab6cc8cbb7")
 			(effects
@@ -5694,7 +5694,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "18b66865-d790-431f-9c97-807f98e3e52a")
 			(effects
@@ -5705,7 +5705,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7740880b-0be9-4880-9a3e-e8f06a8afd86")
@@ -5717,7 +5717,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f318da64-8a0b-428c-b5a3-0c8cdf7c90f6")
@@ -5729,7 +5729,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5742,7 +5742,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5768,6 +5768,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "3a087f2a-6872-4df7-acee-808c8f823d74")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "07c9a331-0dbb-4059-adc0-0b868b3a0287")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -5798,16 +5808,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "4c2cf976-1615-4faa-beca-b1b0ef3db4ce")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "07c9a331-0dbb-4059-adc0-0b868b3a0287")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -5842,6 +5842,16 @@
 			(uuid "60b41647-12d9-4595-86ac-1be29cb4b1b8")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e9b9dffc-8816-4fd7-bafd-a90c7ff592a9")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -5871,16 +5881,6 @@
 			(layer "F.Fab")
 			(uuid "baacac03-d1e4-445f-932f-fd7bfde4ba08")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e9b9dffc-8816-4fd7-bafd-a90c7ff592a9")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -5893,7 +5893,7 @@
 			(uuid "de1b37e2-a5ce-446c-ac66-3f6b1ad8e810")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "26fe5619-f025-43e9-952a-dc221e8ac8e8")
 			(effects
@@ -5904,7 +5904,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "64fbca3b-4da8-4feb-9d56-c5bca3192394")
 			(effects
@@ -5915,7 +5915,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "85bc7bb9-c089-41ce-bd54-b8656aa0613f")
 			(effects
@@ -5926,7 +5926,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5938,7 +5938,7 @@
 			(uuid "ce1a9244-0bbb-4623-b2d8-0cef8360ae23")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -5964,11 +5964,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b6975d54-54fe-490c-be12-c4af6779cab7")
-		(at 149.054 106.6205)
+		(at 130.5 154.88 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D14"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "25d34f2e-6c7d-4672-b12f-4de647548140")
 			(effects
@@ -5979,7 +5979,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "63472249-b70e-4a11-8d4b-d0fb12b5314a")
 			(effects
@@ -5990,7 +5990,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "06de0920-676e-4f91-8760-f750cded8896")
@@ -6002,7 +6002,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6df7e8ee-6720-4063-84f1-9c3c0c4195df")
@@ -6014,7 +6014,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6027,7 +6027,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6053,6 +6053,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "d35ac528-2e47-49ca-adb5-820438b8db08")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef6058fd-9280-40f8-8ecb-d9b617e4be63")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -6083,16 +6093,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "ffbffd5d-cf5f-46af-989b-6294c21ba777")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ef6058fd-9280-40f8-8ecb-d9b617e4be63")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -6127,6 +6127,16 @@
 			(uuid "8aeb13d8-7819-4ab2-86f2-69bc018bd867")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "35705453-a1ce-4965-8e9a-ef40a088c91a")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -6156,16 +6166,6 @@
 			(layer "F.Fab")
 			(uuid "bc9c9e69-0b1e-4b37-8b44-dc93fea92f6b")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "35705453-a1ce-4965-8e9a-ef40a088c91a")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -6178,7 +6178,7 @@
 			(uuid "7e524b59-1bac-4844-b5d1-5213bd2ca3af")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "9c855ccd-75dc-4cfe-8761-70efea5090a1")
 			(effects
@@ -6189,7 +6189,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "4720ad65-1b71-4f0f-bce4-25dfa43fd5a7")
 			(effects
@@ -6200,7 +6200,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "eb8a7853-a02f-4895-b648-64eb5e5c176b")
 			(effects
@@ -6211,7 +6211,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -6223,7 +6223,7 @@
 			(uuid "c9fc9e1a-bc40-46db-982f-4b127b4dd994")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7383,11 +7383,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ea0a9d2b-cf1b-4bea-9570-84803c76e6ae")
-		(at 149.054 92.4205)
+		(at 130.5 129.19 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D10"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "6b15c040-b5dc-4f16-92ed-574d0cb464fe")
 			(effects
@@ -7398,7 +7398,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "9f678967-abc8-42f4-9707-951e2dda552b")
 			(effects
@@ -7409,7 +7409,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9e507a0-8faf-47cb-9810-12d6d7bfd194")
@@ -7421,7 +7421,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec47a949-ec05-4808-9f5a-021dee56dbc5")
@@ -7433,7 +7433,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7446,7 +7446,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7472,6 +7472,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "2d967448-9e8b-4a36-a8c7-81ec856f7cc9")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1d1fe005-9130-442e-91ed-3ab5505e4ad2")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -7502,16 +7512,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "24e7bf75-18a6-4640-8501-c5ad76355e40")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1d1fe005-9130-442e-91ed-3ab5505e4ad2")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -7546,6 +7546,16 @@
 			(uuid "ef67c6ff-1b0b-48d3-a52a-9b18b2843368")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "05ae7c3e-b274-4652-960c-c9c247a7fbff")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -7575,16 +7585,6 @@
 			(layer "F.Fab")
 			(uuid "338c4952-d9c6-4ad8-b305-c96fa3f1b839")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "05ae7c3e-b274-4652-960c-c9c247a7fbff")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -7597,7 +7597,7 @@
 			(uuid "0c02d0f7-1e05-4c1b-bd0b-d0bc3fd111c1")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "498ad8df-7565-4558-80fd-bafd0c26afb0")
 			(effects
@@ -7608,7 +7608,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "97ffede1-0630-4219-a09b-e9271ea2b11b")
 			(effects
@@ -7619,7 +7619,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "e4c2fa8c-4651-4ca9-a04f-207b24453c64")
 			(effects
@@ -7630,7 +7630,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7642,7 +7642,7 @@
 			(uuid "f4711a9e-f5f5-4ac8-9993-fe1b3e646b0a")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -8238,11 +8238,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f90c51a7-5097-401b-98ae-feb841da0754")
-		(at 149.054 103.0705)
+		(at 104.5 155 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D13"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "fcd740b0-ba5f-499a-acc9-d02a13e355e6")
 			(effects
@@ -8253,7 +8253,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "0d728dd2-56bb-4012-9ac2-004ccddb1553")
 			(effects
@@ -8264,7 +8264,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e26bdeca-aa2a-4373-828d-65a859679079")
@@ -8276,7 +8276,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "010e3abe-c83f-4321-b739-e8fa6a358d22")
@@ -8288,7 +8288,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8301,7 +8301,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8327,6 +8327,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "142d5287-c0bf-469e-a52a-286b7ba171bf")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "371abdcd-4f46-4021-8d74-77c412ff67c2")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -8357,16 +8367,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "3c4ac534-cf1d-4508-98ff-f5c832f1214b")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "371abdcd-4f46-4021-8d74-77c412ff67c2")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -8401,6 +8401,16 @@
 			(uuid "c28b2903-42d1-4e95-b92b-5dac083ea8b4")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4088b8f3-aba8-48c6-b1e2-0683284f1121")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -8430,16 +8440,6 @@
 			(layer "F.Fab")
 			(uuid "afd0c1e8-47c5-4ab2-adb1-e19d3e52424b")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4088b8f3-aba8-48c6-b1e2-0683284f1121")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -8452,7 +8452,7 @@
 			(uuid "6deb264d-7662-4028-849c-48b3c056b686")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "16ceb589-7067-4021-8c5d-62765d0c2d36")
 			(effects
@@ -8463,7 +8463,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "5a6c984a-b6dc-480f-bddb-4f1a0cee709a")
 			(effects
@@ -8474,7 +8474,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "60c4714d-75a1-42f5-afb4-d03ecaaead52")
 			(effects
@@ -8485,7 +8485,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -8497,7 +8497,7 @@
 			(uuid "089f35a8-7804-4801-bd5e-e6e5bf6d4326")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
