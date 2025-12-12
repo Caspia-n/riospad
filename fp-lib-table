@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "OPL")(type "KiCad")(uri "${KIPRJMOD}/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
   (lib (name "OLED")(type "KiCad")(uri "${KIPRJMOD}/OLED")(options "")(descr ""))
+  (lib (name "Images")(type "KiCad")(uri "${KIPRJMOD}/Images.pretty")(options "")(descr ""))
 )
